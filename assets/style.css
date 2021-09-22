@@ -11,7 +11,7 @@ header {
     background-color: #1e1e1fce;
     color: #c9f508;
     padding: 30px 0px 30px 0px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     z-index: 1;
 }
@@ -52,7 +52,7 @@ figure {
     height: 600px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("Portfolio-Project/assets/images/backgroundphoto.png");
+    background-image: url("./backgroundphoto.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,9 +101,7 @@ main section {
     padding-left: 40px;
     /* margin-left: 20px; */
 }
-.portfolio-card:hover {
- 
-}
+
 
 .container1 {
     display: flex; 
