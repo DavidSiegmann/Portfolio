@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Portfolio Webpage</title>
+    <title>David Siegmann Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+
 </head>
+
 <body>
     <header>
         <h1>David Siegmann</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#About-Me">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#Portfolio">Portfolio</a>
+                    <a href="#my-work">My Work</a>
                 </li>
                 <li>
-                    <a href="#Contact">Contact</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <figure class="hero-image">
+        <img class="profilepic" src="./assets/Profile-Pic.jpg" alt="profile pic">
+        <figcaption class="hero-text">
 
-    <figure class="hero"><img src="assets/Profile-Pic.jpg" alt="Profile Picture" class="profilepic"> </figure>
+        </figcaption>
+    </figure>
+
+    <br>
 
     <main>
-        <section id="About-Me" class="aboutme">
-         
-            <h2>About Me</h2>
-           <div class="paragraph"> 
-               <p>
-                Hi my name is David Siegmann, and I am, a weenie hut junior web developer. I am local to the Bellingham, Washington area. At the time of writing this I have 6 days of coding experience, which is why I AM YOUR GUY!
+        <div class="content">
+            <section id="about-me">
+                <h3>About Me</h3>
+                <p>
+                    Hi my name is David Siegmann, and I am, a weenie hut junior web developer. I am local to the
+                    Bellingham, Washington area. At the time of writing this I have 6 days of coding experience, which
+                    is why I AM YOUR GUY!
                 </p>
-            </div>
-        </section>
-
-        <section class="portfolio">
-            <h2>Portfolio</h2>
-         <div class="container1"> 
-            <img src="assets/Gaming-PC.jpg" alt="Gaming PC" id="Gaming" class="Card" />
-        <div class="twopics">
-            <img src="assets/Drone-Photo.jfif" alt="Drone Photo" id="Drone" class="smallimage" />
-            <img src="assets/Chubbs-Photo.jpg" alt="Cute Fluffy Dog"  id="Chubbs" class="smallimage" />
+            </section>
+            <section id="my-work">
+                <h3>My Work</h3>
+                <div class="container">
+                    <div class="projects" id="larger">
+                        <div class="card">
+                            <a href="https://evanhosni.github.io/wackywiki/" target="_blank">
+                                <img src="./assets/wackywiki2.jpg" alt="wacky-wiki">
+                            </a>
+                            <p>Wacky Wiki</p>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="card">
+                            <a href="https://davidsiegmann.github.io/5day-planner/" target="_blank">
+                                <img src="./assets/Dayplanner screenshot.png" alt="day-planner">
+                            </a>
+                            <p>Day Planner</p>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="card">
+                            <a href="https://davidsiegmann.github.io/weather-dashboard/" target="_blank">
+                                <img src="./assets/weatherdashboard.png" alt="weather dashboard">
+                            </a>
+                            <p>Weather Dashboard</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact-me">
+                <h3>Contact Me</h3>
+                <ul>
+                    <li>
+                        Phone: 360-961-5485
+                    </li>
+                    <li>
+                        Email: davidcsiegmann@gmail.com
+                    </li>
+                    <li>
+                        <a href="https://github.com/DavidSiegmann" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/david-siegmann-8b5239197" target="_blank">LinkedIn</a>
+                    </li>
+            </section>
         </div>
-        </div>
-        </section>
-
-        <section class="contact">
-            
-            <h2>Contact Me</h2>
-            <ul>
-                <li>
-                  📞: 360-961-5485
-                </li>
-            
-                <li>
-                   📧: <a href="mailto:davidcsiegmann@gmail.com">davidcsiegmann@gmail.com</a>
-                </li>
-          
-                <li>
-                    <a href="https://github.com/DavidSiegmann">Github</a>
-                </li>
-            </ul>
-        </section>
     </main>
 
-    <footer>
-        Made with sweat and tears :')
-    </footer>
-
-
-    
 </body>
+
 </html>
